@@ -2,23 +2,19 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
+  <suite name="Default suite" duration-ms="18" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
+    <test name="Default test" duration-ms="18" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
       <class name="com.selenium.screenShot.TestLoginSceenShot">
-        <test-method status="FAIL" signature="beforeSuite()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="beforeSuite" is-config="true" duration-ms="12" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method initService() is undefined for the type DriverUtils
-]]>
-            </message>
+        <test-method status="FAIL" signature="beforeSuite()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method initService() is undefined for the type DriverUtils
-
-at com.utils.TestBase.beforeSuite(TestBase.java:18)
+              <![CDATA[java.lang.NullPointerException
+at java.util.Hashtable.put(Unknown Source)
+at java.util.Properties.setProperty(Unknown Source)
+at java.lang.System.setProperty(Unknown Source)
+at com.utils.TestBase.beforeSuite(TestBase.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -41,26 +37,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="test()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="test" duration-ms="0" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method initService() is undefined for the type DriverUtils
-]]>
-            </message>
+        <test-method status="SKIP" signature="test()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="test" duration-ms="0" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method initService() is undefined for the type DriverUtils
-
-at com.utils.TestBase.beforeSuite(TestBase.java:18)
+              <![CDATA[java.lang.NullPointerException
+at java.util.Hashtable.put(Unknown Source)
+at java.util.Properties.setProperty(Unknown Source)
+at java.lang.System.setProperty(Unknown Source)
+at com.utils.TestBase.beforeSuite(TestBase.java:17)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -83,15 +75,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-28T07:58:47Z" finished-at="2018-07-28T07:58:47Z">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.selenium.screenShot.TestLoginSceenShot@69b0fd6f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-28T08:50:57Z" finished-at="2018-07-28T08:50:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
